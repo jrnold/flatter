@@ -1,0 +1,7 @@
+export(flatten_constraints)
+export(lowertri_constraint_matrix)
+exportClasses(FlattenedArray)
+exportMethods("[")
+exportMethods("[[")
+exportMethods(flatten)
+exportMethods(unflatten)

@@ -1,0 +1,33 @@
+\name{lowertri_constraint_matrix}
+\alias{lowertri_constraint_matrix}
+\title{Lower Triangular Factor Constraints}
+\usage{
+  lowertri_constraint_matrix(n, factors = 1, ones = TRUE)
+}
+\arguments{
+  \item{n}{Number of variables}
+
+  \item{factors}{Number of factors}
+
+  \item{ones}{If \code{TRUE}, then the diagonal is equal to
+  1, if \code{FALSE} the diagonal is set to \code{Inf}
+  (positive).}
+}
+\value{
+  Matrix with \code{n} rows and \code{factors} columns,
+  with 1's or \code{Inf} on the diagonal, \code{NA} below
+  the diagonal, and 0's above the diagonal.
+}
+\description{
+  Create lower-triangular constraints as used for the
+  loadings matrix in confirmatory factor analysis.
+}
+\examples{
+constraints <- lowertri_constraint_matrix(3, 2)
+constraints
+flatten_constraints(constraints)
+}
+\seealso{
+  \code{\link{flatten_constraints}}
+}
+

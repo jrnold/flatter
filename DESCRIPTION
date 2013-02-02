@@ -1,0 +1,21 @@
+Package: flatter
+Maintainer: Jeffrey B. Arnold <jeffrey.arnold@gmail.com>
+Author: Jeffrey B. Arnold
+Version: 1.0
+License: GPL-3
+Title: Flattened arrays
+Description: Store arrays as a vector of data and indices.
+Depends:
+    R (>= 2.15.2),
+    methods
+Suggests:
+    testthat,
+    roxygen2
+Collate:
+    'flatter-package.r'
+    'AllClasses.r'
+    'AllGenerics.R'
+    'flatten.r'
+    'unflatten.r'
+    'utils.r'
+    'extract.r'

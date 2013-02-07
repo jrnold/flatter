@@ -1,7 +1,7 @@
 \name{extract-method}
-\alias{extract-method}
-\alias{[[,FlattenedArray,integer,missing-method}
 \alias{[,FlattenedArray-method}
+\alias{[[,FlattenedArray,integer,missing-method}
+\alias{extract-method}
 \title{Extract methods for \code{FlattenedArray} objects}
 \description{
   Extract methods for objects of class

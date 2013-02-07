@@ -1,9 +1,9 @@
 \name{unflatten-methods}
 \alias{unflatten}
 \alias{unflatten,FlattenedArray,missing-method}
+\alias{unflatten-methods}
 \alias{unflatten,vector,matrix-method}
 \alias{unflatten,vector,vector-method}
-\alias{unflatten-methods}
 \title{Unflatten array}
 \arguments{
   \item{x}{Object with the elements in the array}

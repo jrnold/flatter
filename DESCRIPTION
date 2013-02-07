@@ -12,10 +12,10 @@ Suggests:
     testthat,
     roxygen2
 Collate:
-    'flatter-package.r'
     'AllClasses.r'
-    'AllGenerics.R'
+    'AllGenerics.r'
+    'extract.r'
     'flatten.r'
+    'flatter-package.r'
     'unflatten.r'
     'utils.r'
-    'extract.r'

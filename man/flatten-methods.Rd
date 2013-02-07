@@ -1,8 +1,8 @@
 \name{flatten-methods}
 \alias{flatten}
 \alias{flatten,array-method}
-\alias{flatten,vector-method}
 \alias{flatten-methods}
+\alias{flatten,vector-method}
 \title{Flatten array}
 \arguments{
   \item{x}{Object to flatten; a vector, matrix, or array.}

@@ -21,8 +21,8 @@ flatten_array <- function(x, default=NA, drop_default=TRUE) {
 ##' @aliases flatten,array-method
 setMethod("flatten", "array", flatten_array)
 
-flatten_vector <- function(x, ... ) {
-    flatten(as.array(x))
+flatten_vector <- function(x, ...) {
+    flatten(as.array(x), ...)
 }
 
 ##' @rdname flatten-methods

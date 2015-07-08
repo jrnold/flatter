@@ -1,3 +1,12 @@
+#' Expand a flattened object
+#'
+#' @param ... Not used.
+#' @return An array object
+#' @name unflatten-methods
+#' @rdname unflatten-methods
+#' @aliases unflatten
+NULL
+
 unflatten_default <- function(x, i, default=na_type(x), dim=NULL) {
     if (is.null(dim)) {
         dim <- apply(i, 2, max)

@@ -1,10 +1,14 @@
 Package: flatter
 Maintainer: Jeffrey B. Arnold <jeffrey.arnold@gmail.com>
-Author: Jeffrey B. Arnold
+Authors@R: c(
+  person("Jeffrey B.", "Arnold", , "jeffrey.arnold@gmail.com", role = c("aut", "cre")),
+  person("Wickham", "Hadley", role = "cph", comment = "code from 'reshape2' package")
+  )
 Version: 1.0
 License: GPL-3
 Title: Flattened arrays
-Description: Store arrays as a vector of data and indices.
+Description: Store arrays as a vector of data and indices. This is designed
+  for data manipulation, and is not a sparse matrix/array package.
 Depends:
     R (>= 2.15.2),
     methods

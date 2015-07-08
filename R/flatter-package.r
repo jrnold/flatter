@@ -8,4 +8,5 @@
 ##'
 ##' @name flatter
 ##' @docType package
+##' @import methods
 NULL
